@@ -12,6 +12,6 @@ Scully is a popular static website generator that empowers the Angular framework
 
 You can find more about them in the following links:
 
-- https://angular.io
-- https://scully.io
-- https://www.jamstack.org
+- <a href="https://angular.io" target="_blank">angular.io</a>
+- <a href="https://scully.io" target="_blank">scully.io</a>
+- <a href="https://www.jamstack.org" target="_blank">jamstack.org</a>
