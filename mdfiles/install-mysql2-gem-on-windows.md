@@ -12,11 +12,11 @@ Then probably you run into some low-level errors when trying to install the mysq
 
 If that's the case, then this post if for you!
 
-## Step 1 -- Install the C++ connector
+### Step 1 -- Install the C++ connector
 
 That's easy, it's either a side-effect of installing MySQL + dev kit on your machine... or you can download the `msi` / `zip` from MySQL website.
 
-## Step 2 -- Install the gem
+### Step 2 -- Install the gem
 
 Simply open a Terminal window, and execute the following command:
 
