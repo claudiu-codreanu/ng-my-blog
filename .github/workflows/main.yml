@@ -1,0 +1,20 @@
+name: Scully Publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14.16"
+      - uses: cmgriffing/scully-gh-pages-action@v9
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          deploy-branch: gh-pages
+          build-args: --base-href /ng-my-blog/
